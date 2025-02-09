@@ -7,26 +7,26 @@ export interface TagType {
 }
 
 export const SiteMetadata = {
-  title: 'Hello Astro',
-  description: 'An Astro starter for corporate/marketing/blog websites.',
+  title: 'Servicii Funerare',
+  description: 'Servicii Funerare Mortuare NON-STOP in judetul Bacau, comuna Sascut, sat Pancesti.',
   author: {
-    name: 'Chris Tham',
-    twitter: '@chris1tham',
-    url: 'https://christham.net',
-    email: 'chris@christham.net',
-    summary: 'Outrageous actualiser.'
+    name: 'Marius Popa',
+    twitter: '@marius_petrut7',
+    url: 'https://mariusppetrutportfolio.netlify.app/',
+    email: 'pmariuspetrut@gmail.com',
+    summary: 'Drupalist.'
   },
   org: {
-    name: 'Hello Tham',
-    twitter: '@hellothamcom',
+    name: 'Servicii Funerare Mortuare NON-STOP',
+    twitter: '@FunerareBen',
     url: 'https://hellotham.com',
-    email: 'info@hellotham.com',
+    email: 'serviciifunerareben@gmail.com',
     summary:
-      'Hello Tham is a boutique management consulting firm. We specialise in Business and IT strategies, operating models, strategic roadmaps, enterprise architecture, analytics and business process design.'
+      'Servicii Funerare Mortuare NON-STOP in ofera servicii funerare in judetul Bacau si judetul Vrancea pentru toate comunele si satele adiacente'
   },
-  location: 'Rivendell, Middle Earth',
-  latlng: [-33.86785, 151.20732] as [number, number],
-  repository: 'https://github.com/hellotham/hello-astro',
+  location: 'sat Pancesti, comuna Sascut, judetul Bacau, Romania',
+  latlng: [46.21027357549614, 27.062326837769646] as [number, number],
+  repository: 'https://github.com/backatmarius/popa_astro',
   buildTime: new Date()
 }
 
@@ -46,9 +46,7 @@ export const NavigationLinks = [
 
 export const PAGE_SIZE = 6
 
-export const GITHUB_EDIT_URL = `https://github.com/hellotham/hello-astro`
-
-export const COMMUNITY_INVITE_URL = `https://astro.build/chat`
+export const GITHUB_EDIT_URL = `https://github.com/backatmarius/popa_astro`
 
 export type Sidebar = Record<string, { text: string; link: string }[]>
 
