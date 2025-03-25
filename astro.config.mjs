@@ -22,7 +22,7 @@ export default defineConfig({
       noExternal: ['swiper', 'leaflet']
     }
   },
-  site: 'https://servicii-funerare-bacau.netlify.app/',
+  site: 'https://servicii-funerare-bacau.netlify.app',
   base: '/servicii-funerare-sascut/',
   integrations: [icon(), tailwind(), sitemap(), mdx(), alpinejs(), robotsTxt(), markdoc()],
   markdown: {
