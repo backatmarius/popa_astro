@@ -14,7 +14,7 @@ let documents = await Promise.all(
   posts.map(async (post) => {
     const author = post.data.author ? await getEntry(post.data.author) : defaultauthor
     return {
-      url: import.meta.env.BASE_URL + 'blog/' + post.slug,
+      url: import.meta.env.BASE_URL + 'servicii/' + post.slug,
       title: post.data.title,
       description: post.data.description,
       author: `${author.data.title} (${author.data.contact})`,

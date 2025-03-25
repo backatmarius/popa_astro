@@ -1,13 +1,13 @@
 ---
 import { FeaturedSVG } from '../config'
-import overviewImage from '../assets/astro/overview.jpeg';
+import overviewImage from '../assets/astro/overview.jpg';
 ---
 
 <div class='relative overflow-hidden lg:min-h-screen flex items-center'>
   <!-- Background image -->
   <div
     class='absolute inset-0 bg-cover'
-    style={`background-image: url('${overviewImage.src}');`}
+    style={`background-image: url(${overviewImage.src});`}
   ></div>
 
   <!-- Overlay for readability with header gradient -->

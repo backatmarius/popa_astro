@@ -7,7 +7,7 @@ import Categories from '../components/categories.astro'
 import Tags from '../components/tags.astro'
 
 export interface Props {
-  post: CollectionEntry<'blog'>
+  post: CollectionEntrservicii'>
 }
 
 const { post } = Astro.props
@@ -42,7 +42,7 @@ if (post.data.author) {
     </a>
     <div class='p-6'>
       {post.data.categories && <Categories categories={post.data.categories} />}
-      <a itemprop='url' href={import.meta.env.BASE_URL + 'blog/' + post.slug}>
+      <a itemprop='url' href={import.meta.env.BASE_URL + 'servicii/' + post.slug}>
         <h1
           itemprop='name'
           class='title-font mt-0 lg:mt-6 text-2xl mb-4 lg:mb-8 font-bold text-purple-600 hover:text-pink-600 dark:text-purple-300 dark:hover:text-pink-300 hover:cursor-pointer'

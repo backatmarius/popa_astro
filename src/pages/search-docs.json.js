@@ -15,7 +15,7 @@ let documents = await Promise.all(
     const categories = post.data.categories && (await getEntries(post.data.categories))
 
     return {
-      url: import.meta.env.BASE_URL + 'blog/' + post.slug,
+      url: import.meta.env.BASE_URL + 'servicii/' + post.slug,
       title: post.data.title,
       description: post.data.description,
       author: `${author.data.title} (${author.data.contact})`,

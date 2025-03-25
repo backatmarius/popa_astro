@@ -50,7 +50,7 @@ export const NavigationLinks = [
   { name: 'Despre noi', href: 'despre-noi' },
   { name: 'Servicii funerare', href: 'servicii' },
   { name: 'Contact', href: 'contact' },
-  { name: 'Ghid Funerar', href: 'doc/introduction' }
+  { name: 'Ghid Funerar', href: 'doc/introducere' }
 ]
 
 export const PAGE_SIZE = 6
