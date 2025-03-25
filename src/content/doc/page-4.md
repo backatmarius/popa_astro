@@ -1,37 +1,17 @@
 ---
-section: Another Section
-title: Page 4
-description: Lorem ipsum dolor sit amet - 4
+section: Ghid Funerar
+title: Pasul 4
+description: Ghid Funerar Sascut Pasul 4
 ---
 
-This is a fully-featured page, written in Markdown!
+ACTUL DE DECES SI ADEVERINȚA DE INHUMARE, CONFORM NOILOR NORME, se scot NUMAI de catre FAMILIE sau APARTINATORII persoanei decedate, de la OFICIUL STĂRII CIVILE (ATENTIE!) DE PE RAZA SECTORULUI SAU A LOCALITĂȚII UNDE Ă SURVENIT DECESUL NU DE LA OFICIUL STĂRII CIVILE DE CARE APARȚINE SAU DE LA SECTORUL DIN CARTEA DE IDENTITATE.
 
-## Section A
+SINGURA POSIBILITATE CA O FIRMA SA VA SCOATĂ DECESUL IN ORIGINAL DE LA OFICIUL STĂRII CIVILE, ESTE SĂ ÎI FACETI O PROCURA NOTARIALA. In cazul in care familia ni deține un mijloc de transport sau din diferite motive nu se poate deplasa va putem ajuta cu o masina care sa va duca la Starea Civila.
 
-Lorem ipsum dolor sit amet, **consectetur adipiscing elit**. Sed ut tortor _suscipit_, posuere ante id, vulputate urna. Pellentesque molestie aliquam dui sagittis aliquet. Sed sed felis convallis, lacinia lorem sit amet, fermentum ex. Etiam hendrerit mauris at elementum egestas. Vivamus id gravida ante. Praesent consectetur fermentum turpis, quis blandit tortor feugiat in. Aliquam erat volutpat. In elementum purus et tristique ornare. Suspendisse sollicitudin dignissim est a ultrices. Pellentesque sed ipsum finibus, condimentum metus eget, sagittis elit. Sed id lorem justo. Vivamus in sem ac mi molestie ornare.
-
-## Section B
-
-Nam quam dolor, pellentesque sed odio euismod, feugiat tempus tellus. Quisque arcu velit, ultricies in faucibus sed, ultrices ac enim. Nunc eget dictum est. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam ex nisi, egestas mollis ultricies ut, laoreet suscipit libero. Nam condimentum molestie turpis. Sed vestibulum sagittis congue. Maecenas tristique enim et tincidunt tempor. Curabitur ac scelerisque nulla, in malesuada libero. Praesent eu tempus odio. Pellentesque aliquam ullamcorper quam at gravida. Sed non fringilla mauris. Aenean sit amet ultrices erat. Vestibulum congue venenatis tortor, nec suscipit tortor. Aenean pellentesque mauris eget tortor tincidunt pharetra.
-
-## Section C
-
-```markdown
----
-title: Markdown Page!
-lang: en
-layout: ~/layouts/MainLayout.astro
----
-
-# Markdown example
-
-This is a fully-featured page, written in Markdown!
-
-## Section A
-
-Lorem ipsum dolor sit amet, **consectetur adipiscing elit**. Sed ut tortor _suscipit_, posuere ante id, vulputate urna. Pellentesque molestie aliquam dui sagittis aliquet. Sed sed felis convallis, lacinia lorem sit amet, fermentum ex. Etiam hendrerit mauris at elementum egestas. Vivamus id gravida ante. Praesent consectetur fermentum turpis, quis blandit tortor feugiat in. Aliquam erat volutpat. In elementum purus et tristique ornare. Suspendisse sollicitudin dignissim est a ultrices. Pellentesque sed ipsum finibus, condimentum metus eget, sagittis elit. Sed id lorem justo. Vivamus in sem ac mi molestie ornare.
-
-## Section B
-
-Nam quam dolor, pellentesque sed odio euismod, feugiat tempus tellus. Quisque arcu velit, ultricies in faucibus sed, ultrices ac enim. Nunc eget dictum est. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam ex nisi, egestas mollis ultricies ut, laoreet suscipit libero. Nam condimentum molestie turpis. Sed vestibulum sagittis congue. Maecenas tristique enim et tincidunt tempor. Curabitur ac scelerisque nulla, in malesuada libero. Praesent eu tempus odio. Pellentesque aliquam ullamcorper quam at gravida. Sed non fringilla mauris. Aenean sit amet ultrices erat. Vestibulum congue venenatis tortor, nec suscipit tortor. Aenean pellentesque mauris eget tortor tincidunt pharetra.
-```
+Actele necesare pentru declararea DECESULUI sunt:
+- Certificatul CONSTATATOR in original care VA RĂMÂNE LA STAREA CIVILA
+- Cartea de identitate a decedatului in original si copie
+- Certificatul de nastere si căsătorie in original si copie
+- Cartea de identitate a persoanei care declara decesul
+- Acte care să ateste gradul de rudenie( nastere căsătorie testament)
+În 15minute ofițerul Stării Civile va v-a elibera CERTIFICATUL DE DECES SI ADEVERINȚA DE INHUMARE.

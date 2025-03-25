@@ -1,0 +1,24 @@
+---
+const { image, alt, title } = Astro.props;
+---
+
+<div class="flex items-center space-x-8 border p-8 rounded-xl shadow-lg bg-[#D9A77D] my-6">
+  <div class="w-80 h-80 bg-[#C98A60] flex items-center justify-center rounded-xl">
+    <img src={image.src} alt={alt} class="w-72 h-72 object-cover rounded-xl" />
+  </div>
+  <div class="text-white">
+    <h3 class="text-3xl font-bold mb-3">{title}</h3>
+    <p class="text-lg mb-3 font-medium">Pachetul conține:</p>
+    <ul class="list-disc pl-5 space-y-2 text-lg font-medium">
+      <li>Sicriu complet echipat, disponibil în mai multe culori</li>
+      <li>Cruce lemn scrisă</li>
+      <li>Îmbălsămare profesională</li>
+      <li>Toaletare și îmbrăcare decedat</li>
+      <li>Transport funerar la capelă/domiciliu cu frigider mortuar</li>
+      <li>Batiste pentru slujba de înmormântare</li>
+      <li>Prosoape</li>
+    </ul>
+  </div>
+</div>
+
+

@@ -1,37 +1,13 @@
 ---
-section: Section Header
-title: Page 3
-description: Lorem ipsum dolor sit amet - 3
+section: Ghid Funerar
+title: Pasul 3
+description: Ghid Funerar Sascut Pasul 3
 ---
 
-This is a fully-featured page, written in Markdown!
+După ce luati legatura cu o firma de servicii funerare aceștia au obligația să trimită o masină specială de recuperare decedați, sa ridice corpul intr-un sac special sau intr-un sicriu special de recuperat decedați, sa il duca la o sală special amenajată pentru pregătirea corpului pentru a fi dezinfectat, imbălsămat apoi toaletat si in cele din urmă cosmetizat si îmbrăcat.
 
-## Section A
+Aceasta procedura este imperativ necesară conform noilor norme funerare.
 
-Lorem ipsum dolor sit amet, **consectetur adipiscing elit**. Sed ut tortor _suscipit_, posuere ante id, vulputate urna. Pellentesque molestie aliquam dui sagittis aliquet. Sed sed felis convallis, lacinia lorem sit amet, fermentum ex. Etiam hendrerit mauris at elementum egestas. Vivamus id gravida ante. Praesent consectetur fermentum turpis, quis blandit tortor feugiat in. Aliquam erat volutpat. In elementum purus et tristique ornare. Suspendisse sollicitudin dignissim est a ultrices. Pellentesque sed ipsum finibus, condimentum metus eget, sagittis elit. Sed id lorem justo. Vivamus in sem ac mi molestie ornare.
+În momentul când personalul firmei ajunge la domiciliul dvs., ar fi bine sa pregătiti hainele si actele doveditoare de boala suferită de persoana respectivă. RECOMAND DIN TOATA INIMA chiar daca este greu, să vă duceți si dvs. să vedeti unde vă duc persoana dragă vouă, deoarece majoritatea nu dețin aceasta sală chiar dacă legea prevede acest lucru.
 
-## Section B
-
-Nam quam dolor, pellentesque sed odio euismod, feugiat tempus tellus. Quisque arcu velit, ultricies in faucibus sed, ultrices ac enim. Nunc eget dictum est. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam ex nisi, egestas mollis ultricies ut, laoreet suscipit libero. Nam condimentum molestie turpis. Sed vestibulum sagittis congue. Maecenas tristique enim et tincidunt tempor. Curabitur ac scelerisque nulla, in malesuada libero. Praesent eu tempus odio. Pellentesque aliquam ullamcorper quam at gravida. Sed non fringilla mauris. Aenean sit amet ultrices erat. Vestibulum congue venenatis tortor, nec suscipit tortor. Aenean pellentesque mauris eget tortor tincidunt pharetra.
-
-## Section C
-
-```markdown
----
-title: Markdown Page!
-lang: en
-layout: ~/layouts/MainLayout.astro
----
-
-# Markdown example
-
-This is a fully-featured page, written in Markdown!
-
-## Section A
-
-Lorem ipsum dolor sit amet, **consectetur adipiscing elit**. Sed ut tortor _suscipit_, posuere ante id, vulputate urna. Pellentesque molestie aliquam dui sagittis aliquet. Sed sed felis convallis, lacinia lorem sit amet, fermentum ex. Etiam hendrerit mauris at elementum egestas. Vivamus id gravida ante. Praesent consectetur fermentum turpis, quis blandit tortor feugiat in. Aliquam erat volutpat. In elementum purus et tristique ornare. Suspendisse sollicitudin dignissim est a ultrices. Pellentesque sed ipsum finibus, condimentum metus eget, sagittis elit. Sed id lorem justo. Vivamus in sem ac mi molestie ornare.
-
-## Section B
-
-Nam quam dolor, pellentesque sed odio euismod, feugiat tempus tellus. Quisque arcu velit, ultricies in faucibus sed, ultrices ac enim. Nunc eget dictum est. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam ex nisi, egestas mollis ultricies ut, laoreet suscipit libero. Nam condimentum molestie turpis. Sed vestibulum sagittis congue. Maecenas tristique enim et tincidunt tempor. Curabitur ac scelerisque nulla, in malesuada libero. Praesent eu tempus odio. Pellentesque aliquam ullamcorper quam at gravida. Sed non fringilla mauris. Aenean sit amet ultrices erat. Vestibulum congue venenatis tortor, nec suscipit tortor. Aenean pellentesque mauris eget tortor tincidunt pharetra.
-```
+Apoi dupa tot acest proces persoana poate fi depusă la capelă in baza certificatului de imbălsămarea eliberat de MEDICUL nostru, sau daca nu se poate face depunerea in acel moment, trupul se păstrează la frigider până când familia își dă acordul sa fie transportat la capelă.

@@ -20,7 +20,7 @@ const detail = await getEntry('category', category!)
 
 const frontmatter: CollectionEntry<'page'>['data'] = {
   title:
-    'Category: ' +
+    'Categorie: ' +
     category +
     (page.size < page.total ? ' (page ' + page.currentPage + ' of ' + page.lastPage + ')' : ''),
   description: detail!.data.description,

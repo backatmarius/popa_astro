@@ -28,12 +28,10 @@ const title = frontmatter.title
     <h1 class='font-display text-3xl tracking-tight text-slate-900 dark:text-white'>
       {title}
     </h1>
-    <nav class='block sm:hidden'>
+    <!-- <nav class='block sm:hidden'>
       <TableOfContents headings={headings} />
-    </nav>
+    </nav> -->
     <slot itemprop='articleBody' />
   </section>
-  <nav class='block sm:hidden'>
-    <MoreMenu editHref={githubEditUrl} />
-  </nav>
+
 </article>

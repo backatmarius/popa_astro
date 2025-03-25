@@ -1,5 +1,9 @@
 {
-  "name": "Phone",
-  "link": "tel:555-5555",
+  "name": "Numere de telefon",
+  "link": [
+    "0723 321 499",
+    "0334 131 451",
+    "0775 307 326"
+  ],
   "icon": "telephone"
 }

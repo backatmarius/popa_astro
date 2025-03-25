@@ -29,10 +29,6 @@ if (post.data.author) {
 ---
 
 <div class='relative mx-auto my-4 h-96 w-full max-w-screen-xl md:mb-0'>
-  <div
-    class='absolute bottom-0 left-0 z-10 h-full w-full bg-gradient-to-t from-gray-700 xl:rounded-lg'
-  >
-  </div>
   <Image
     itemprop='image'
     src={image}
@@ -56,7 +52,7 @@ if (post.data.author) {
         />
         <span class='font-semibold text-purple-200'>{author.data.title}</span>
       </span>
-      {
+      <!-- {
         post.data.pubDate && (
           <span class='mr-6 flex items-center'>
             <Icon class='mr-1 h-6 w-6 text-purple-200' name='heroicons:calendar-days' />
@@ -71,7 +67,7 @@ if (post.data.author) {
             <span class='ml-1 font-semibold text-purple-200'>{post.data.minutesRead}</span>
           </span>
         )
-      }
+      } -->
     </span>
     <Tags tags={post.data.tags} />
   </div>

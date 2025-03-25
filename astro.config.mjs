@@ -23,7 +23,7 @@ export default defineConfig({
     }
   },
   site: 'https://hellotham.github.io',
-  base: '/hello-astro/',
+  base: '/servicii-funerare-sascut/',
   integrations: [icon(), tailwind(), sitemap(), mdx(), alpinejs(), robotsTxt(), markdoc()],
   markdown: {
     extendDefaultPlugins: true,
