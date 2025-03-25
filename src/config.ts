@@ -41,7 +41,7 @@ export const SiteMetadata = {
 
 export { default as Logo } from './assets/svg/astro/logo-ben.svg'
 export { default as LogoImage } from './assets/svg/astro/astro-logo-dark.svg'
-export { default as FeaturedSVG } from './assets/astro/overview.jpg'
+export { default as FeaturedSVG } from '../public/overview.jpg'
 export { default as DefaultSVG } from './assets/svg/undraw/undraw_my_feed.svg'
 export { default as DefaultImage } from './assets/undraw/undraw_my_feed.png'
 
