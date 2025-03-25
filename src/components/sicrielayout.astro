@@ -30,7 +30,7 @@ const exifs = await Promise.all(
     <header class="shadow-md py-4 px-6">
       <h1 class="text-3xl font-bold text-gray-800">{title}</h1>
     </header>
-    <main class=" p-6 bg-white shadow-lg rounded-lg mt-6">
+    <main class="p-6 shadow-lg rounded-lg mt-6">
       <article class="not-prose lg:prose-xl w-full flex flex-col justify-center items-center gap-4">
         <slot />
         {folderImages.map((image, index) => (
