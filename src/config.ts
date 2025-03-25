@@ -53,7 +53,7 @@ export const NavigationLinks = [
   { name: 'Ghid Funerar', href: 'doc/introduction' }
 ]
 
-// export const PAGE_SIZE = 6
+export const PAGE_SIZE = 6
 
 export const GITHUB_EDIT_URL = `https://github.com/backatmarius/popa_astro`
 
