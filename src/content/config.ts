@@ -29,6 +29,7 @@ const page = defineCollection({
       pubDate: z.date().optional(),
       coverSVG: image().optional(),
       coverImage: image().optional(),
+      sfTeodor: image().optional(),
       socialImage: image().optional(),
       images: z.array(image()).optional(),
       gallery: z.string().optional(),
@@ -73,7 +74,7 @@ const social = defineCollection({
   type: 'data',
   schema: z.object({
     name: z.string(),
-    link: z.string(),
+    link: z.array(z.string()),
     icon: z.string()
   })
 })

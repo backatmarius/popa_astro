@@ -2,6 +2,7 @@
 import type { CollectionEntry } from 'astro:content'
 import { getCollection } from 'astro:content'
 import Layout from '../layouts/page.astro'
+import { Image } from 'astro:assets'
 
 export interface Props {
   page: CollectionEntry<'page'>
@@ -11,6 +12,11 @@ const { page } = Astro.props
 
 const { Content } = await page.render()
 
+// Get coverImage from the frontmatter (ensure this exists in your content)
+const coverImage = page.data.coverImage
+const socialImage = page.data.socialImage
+const sfTeodor = page.data.sfTeodor
+
 export async function getStaticPaths() {
   const pages = await getCollection('page')
 
@@ -19,8 +25,68 @@ export async function getStaticPaths() {
     props: { page }
   }))
 }
+
 ---
 
 <Layout frontmatter={page.data}>
-  <Content />
+  <div class='flex items-center justify-center lg:items-start gap-8 px-4 g:ml-8 flex-col-reverse lg:flex-row'>
+    {socialImage && (
+      <aside class='flex-shrink-0 w-full lg:w-1/3'>
+        <Image src={socialImage} alt='Sfanta Mucenica Iosefini' class='w-full h-auto rounded-lg shadow-lg' />
+        {/* Quote card below the image */}
+        <table class='w-full text-center bg-gray-100 border border-gray-300 rounded-lg shadow-lg mt-4 pr-4'>
+          <tr>
+            <td class='px-6 py-4 text-xl italic text-gray-800'>
+              "Cel ce urmeaza poruncilor lui Hristos nu moare niciodata. Moare dupa trup, dupa patimi, dar se invredniceşte a trai inca din aceasta viata în Rai, in Biserica noastra, iar apoi in vesnicie."
+            </td>
+          </tr>
+          <tr>
+            <td class='px-6 py-4 font-semibold text-right text-gray-600 not-prose'>
+              Sfantul Porfirie Kafsokalivitul
+            </td>
+          </tr>
+        </table>
+
+        <div class='mt-8 space-y-4'>
+          <div class='border-t border-gray-300 pt-4'>
+            <p class='text-2xl text-white'>
+              Strada Proptop Ioan Negoita nr 256, Comuna Sascut
+            </p>
+          </div>
+          <div class='border-t border-gray-300 pt-4'>
+            <p class='text-2xl text-white'>
+              0723 321 499
+            </p>
+          </div>
+          <div class='border-t border-gray-300 pt-4'>
+            <p class='text-2xl text-white'>
+              0334 131 451
+            </p>
+          </div>
+          <div class='border-t border-gray-300 pt-4'>
+            <p class='text-2xl text-white'>
+              0775 307 326
+            </p>
+          </div>
+          <div class='border-t border-gray-300 pt-4'>
+            <a class='text-2xl text-white' href="mailto:serviciifunerareben@gmail.com">
+              serviciifunerareben@gmail.com
+            </a>
+          </div>
+        </div>
+        {coverImage && (
+        <Image src={coverImage} alt='Sfantul Petru si Pavel' class='w-full h-auto rounded-lg shadow-lg' />
+        )}
+        {sfTeodor && (
+        <Image src={sfTeodor} alt='Sfantul Petru si Pavel' class='w-full h-auto rounded-lg shadow-lg' />
+        )}
+      </aside>
+    )}
+
+    {/* Main content */}
+    <div class='w-ful lg:w-2/3'>
+      <Content />
+    </div>
+  </div>
+
 </Layout>

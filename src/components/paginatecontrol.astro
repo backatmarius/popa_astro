@@ -12,7 +12,7 @@ export interface Props {
 const { base, page } = Astro.props
 ---
 
-<div class='mt-4 flex items-center'>
+<!-- <div class='mt-4 flex items-center'>
   <a
     href={import.meta.env.BASE_URL + 'categories'}
     class='inline-block rounded-md bg-purple-600 px-2 py-1 text-base text-white hover:bg-pink-600 md:text-lg'
@@ -30,7 +30,7 @@ const { base, page } = Astro.props
     class='ml-4 inline-block rounded-md bg-purple-600 px-2 py-1 text-base text-white hover:bg-pink-600 md:text-lg'
   >
     Authors
-  </a>
+  </a> -->
   {
     page.size < page.total && (
       <div class='ml-4'>
@@ -80,7 +80,7 @@ const { base, page } = Astro.props
       </div>
     )
   }
-  <p class='ml-4 italic text-white'>
-    Articles {page.start + 1}-{page.end + 1} (total {page.total})
+  <p class=' italic text-white'>
+    Servicii oferite {page.start + 1}-{page.end + 1}
   </p>
 </div>

@@ -1,26 +1,13 @@
 ---
-section: Section Header
-title: Introduction
-description: Docs intro
+section: Ghid Funerar
+title: Pasul 1
+description: Ghid Funerar Sascut Pasul 1
 ---
 
-**Welcome to Astro!**
+În următoarele rânduri vom detalia cât mai complet ce trebuie facut pentru a nu intra in panica in momentul in care o persoana draga vouă va trece în neființă.
 
-This is the `docs` starter template. It contains all of the features that you need to build a Markdown-powered documentation site, including:
+Dacă persoana respectivă a decedat si are antecedente medicale că a suferit de o anumită boală (deține acte doveditoare in acest sens) este inutil să mai anuntati salvarea sau poliția deoarece ei nu au competenta necesară sa ELIBEREZE CERTIFICATUL CONSTATATOR AL DECESULUI.
 
-- ✅ **Full Markdown support**
-- ✅ **Responsive mobile-friendly design**
-- ✅ **Sidebar navigation**
-- ✅ **Search (powered by Algolia)**
-- ✅ **Multi-language i18n**
-- ✅ **Automatic table of contents**
-- ✅ **Automatic list of contributors**
-- ✅ (and, best of all) **dark mode**
+Pentru a intra în posesia acestui act MEDICUL LEGIST sau MEDICUL DE FAMILIE are competenta necesară să il elibereze. În unele cazuri extreme, medicii de pe ambulanță va eliberează unul dupa 24 ore, timp în care trebuie să stați cu persoana decedate în casa nefiind posibilă imbălsămarea deoarece lipseste acest act. Dupa cum prea bine stiti aceleași lucru se intampla si in cazul medicului de familie care nu se va deplasa la dvs la domiciliu sa constate decesul punandu-va sa va deplasati la cabinetul acestuia chiar dacă acest lucru este ILEGAL ,el având datoria sa vada cu ochii lui ca persoana a decedat.
 
-## Getting Started
-
-To get started with this theme, check out the `README.md` in your new project directory. It provides documentation on how to use and customize this template for your own project. Keep the README around so that you can always refer back to it as you build.
-
-Found a missing feature that you can't live without? Please suggest it on Discord [(#ideas-and-suggestions channel)](https://astro.build/chat) and even consider adding it yourself on GitHub! Astro is an open source project and contributions from developers like you are how we grow!
-
-Good luck out there, Astronaut. 🧑‍🚀
+In concluzie in cazul in care aveti un deces, sunați la firma de pompe funebre.

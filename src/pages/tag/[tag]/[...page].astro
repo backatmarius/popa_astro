@@ -18,11 +18,11 @@ const { page } = Astro.props
 
 const frontmatter: CollectionEntry<'page'>['data'] = {
   title:
-    'Tag: ' +
+    'Servicii care sunt etichetate cu ' +
     tag +
     (page.size < page.total ? ' (page ' + page.currentPage + ' of ' + page.lastPage + ')' : ''),
   description:
-    'Showing articles ' + (page.start + 1) + '-' + (page.end + 1) + ' (total ' + page.total + ')',
+    ' Total ' + page.total ,
   coverSVG: coverSVG,
   socialImage: socialImage
 }
@@ -47,7 +47,7 @@ export async function getStaticPaths({ paginate }: { paginate: PaginateFunction 
 ---
 
 <Base frontmatter={frontmatter} schema='CollectionPage'>
-  <header>
+  <header class="mt-20 lg:mt-14 lg:px-24 px-0">
     <PageHero
       title={frontmatter.title}
       description={frontmatter.description}

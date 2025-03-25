@@ -58,17 +58,17 @@ import { Icon } from 'astro-icon/components'
         <input
           type='search'
           x-model='searchText'
-          class='form-control relative m-0 block w-full min-w-0 max-w-xs flex-auto rounded border border-solid border-purple-300 bg-white bg-clip-padding px-3 py-1.5 text-base font-normal text-gray-500 transition ease-in-out focus:border-purple-500 focus:text-gray-700 focus:outline-none dark:border-purple-700 dark:bg-gray-900 dark:text-gray-300 dark:focus:border-purple-600 dark:focus:text-gray-100'
+          class="w-full p-3 bg-[#F5E1D2] text-[#5D3E23] placeholder-[#8B5A2B] border border-[#5D3E23] rounded-lg focus:outline-none focus:ring-2 focus:ring-[#A63E00] transition"
           id='lunrsearch'
           name='q'
           maxlength='255'
           value=''
-          placeholder='Search'
+          placeholder='Cautati'
           aria-label='Search'
           aria-describedby='lunrbutton'
         />
         <button
-          class='btn inline-block items-center rounded bg-purple-600 px-2 py-2 text-xs font-medium uppercase leading-tight text-white shadow-md transition duration-150 ease-in-out hover:bg-purple-700 hover:shadow-lg focus:bg-purple-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-purple-800 active:shadow-lg'
+          class="w-fit p-3 bg-[#F5E1D2] text-[#5D3E23] placeholder-[#8B5A2B] border border-[#5D3E23] rounded-lg focus:outline-none focus:ring-2 focus:ring-[#A63E00] transition"
           type='button'
           name='search'
           id='lunrbutton'
@@ -97,7 +97,7 @@ import { Icon } from 'astro-icon/components'
   <div
     x-show='searchResults'
     x-cloak
-    class='relative z-50'
+    class="z-50"
     aria-labelledby='slide-over-title'
     role='dialog'
     aria-modal='true'
@@ -110,13 +110,13 @@ import { Icon } from 'astro-icon/components'
       x-transition:leave='ease-in-out duration-500'
       x-transition:leave-start='opacity-100'
       x-transition:leave-end='opacity-0'
-      class='fixed inset-0 bg-gray-500 bg-opacity-75 transition-opacity'
+      class='fixed inset-0 bg-gray-500 bg-opacity-75 transition-opacity z-50'
     >
     </div>
 
-    <div class='fixed inset-0 overflow-hidden'>
+    <div class='fixed inset-0 overflow-hidden z-50'>
       <div class='absolute inset-0 overflow-hidden'>
-        <div class='pointer-events-none fixed inset-y-0 right-0 flex max-w-full pl-10'>
+        <div class='pointer-events-none fixed inset-y-0 right-0 flex max-w-full pl-10 z-50'>
           <div
             x-show='searchResults'
             x-transition:enter='transform transition ease-in-out duration-500 sm:duration-700'
@@ -139,7 +139,7 @@ import { Icon } from 'astro-icon/components'
             >
               <button
                 type='button'
-                class='rounded-md text-purple-300 hover:text-pink-300 focus:outline-none focus:ring-2 focus:ring-white'
+                class='rounded-md text-white hover:text-pink-300 focus:outline-none focus:ring-2 focus:ring-white'
                 x-on:click='searchResults = false'
               >
                 <span class='sr-only'>Close panel</span>

@@ -3,6 +3,7 @@ import type { CollectionEntry } from 'astro:content'
 import Base from '../layouts/base.astro'
 import PageHero from '../components/pagehero.astro'
 
+
 export interface Props {
   frontmatter: CollectionEntry<'page'>['data']
 }
@@ -17,13 +18,11 @@ const { frontmatter } = Astro.props
         <PageHero
           title={frontmatter.title}
           description={frontmatter.description}
-          coverSVG={frontmatter.coverSVG}
-          socialImage={frontmatter.socialImage}
         />
       </header>
       <section
         itemprop='mainContentOfPage'
-        class='prose prose-purple mx-auto my-8 max-w-screen-lg px-4 dark:prose-invert lg:prose-xl lg:px-0'
+        class='prose prose-purple mt-0 lg:mt-8 max-w-full px-4 dark:prose-invert lg:prose-xl lg:px-10'
       >
         <slot />
       </section>

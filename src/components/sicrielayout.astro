@@ -1,0 +1,52 @@
+---
+import Lightbox from "../components/lightbox.astro";
+import exifr from "exifr";
+
+const { title, folder } = Astro.props;
+
+// Importăm toate imaginile din folderul specificat
+const allImages = import.meta.glob<ImageMetadata>('../assets/gallery/**/*.{png,webp,jpg,jpeg}', {
+  import: 'default',
+  eager: true
+});
+
+const folderImages = Object.keys(allImages)
+  .filter((imagePath) => imagePath.includes(`/gallery/${folder}/`))
+  .map((imagePath) => allImages[imagePath]);
+
+const exifs = await Promise.all(
+  folderImages.map((image) => exifr.parse(image.src))
+);
+---
+
+<!DOCTYPE html>
+<html lang="ro">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>{title}</title>
+  </head>
+  <body class="bg-gray-100 text-gray-900">
+    <header class="shadow-md py-4 px-6">
+      <h1 class="text-3xl font-bold text-gray-800">{title}</h1>
+    </header>
+    <main class=" p-6 bg-white shadow-lg rounded-lg mt-6">
+      <article class="not-prose lg:prose-xl w-full flex flex-col justify-center items-center gap-4">
+        <slot />
+        {folderImages.map((image, index) => (
+          <div class="flex items-center gap-4 mt-6 w-full">
+            <img
+              src={image.src}
+              alt={`Imagine ${index + 1}`}
+              class={`w-1/3 rounded-lg shadow-md ${index % 2 === 0 ? 'order-1' : 'order-2'}`}
+            />
+            <p class={`w-2/3 ${index % 2 === 0 ? 'order-2' : 'order-1'}`}>
+              {/* You can add additional content here if needed */}
+            </p>
+          </div>
+        ))}
+      </article>
+      <Lightbox id="gallery" images={folderImages} exifs={exifs} />
+    </main>
+  </body>
+</html>

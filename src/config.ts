@@ -24,27 +24,36 @@ export const SiteMetadata = {
     summary:
       'Servicii Funerare Mortuare NON-STOP in ofera servicii funerare in judetul Bacau si judetul Vrancea pentru toate comunele si satele adiacente'
   },
-  location: 'sat Pancesti, comuna Sascut, judetul Bacau, Romania',
+  location: 'strada Protopop Ioan Negoita, Nr. 215, sat Pancesti, comuna Sascut, judetul Bacau',
   latlng: [46.21027357549614, 27.062326837769646] as [number, number],
   repository: 'https://github.com/backatmarius/popa_astro',
-  buildTime: new Date()
+  buildTime: new Date(),
+  workingHours: {
+    luni: "00:00 - 23:59",
+    marti: "00:00 - 23:59",
+    miercuri: "00:00 - 23:59",
+    joi: "00:00 - 23:59",
+    vineri: "00:00 - 23:59",
+    sambata: "00:00 - 23:59",
+    duminica: "00:00 - 23:59"
+  }
 }
 
-export { default as Logo } from './assets/svg/astro/astro-icon-dark.svg'
-export { default as LogoImage } from './assets/astro/astro-logo-dark.png'
-export { default as FeaturedSVG } from './assets/svg/undraw/undraw_design_inspiration.svg'
+export { default as Logo } from './assets/svg/astro/logo-ben.svg'
+export { default as LogoImage } from './assets/svg/astro/astro-logo-dark.svg'
+export { default as FeaturedSVG } from './assets/astro/overview.jpeg'
 export { default as DefaultSVG } from './assets/svg/undraw/undraw_my_feed.svg'
 export { default as DefaultImage } from './assets/undraw/undraw_my_feed.png'
 
 export const NavigationLinks = [
-  { name: 'Home', href: '' },
-  { name: 'About', href: 'about' },
+  { name: 'Acasa', href: '' },
+  { name: 'Despre noi', href: 'despre-noi' },
+  { name: 'Servicii funerare', href: 'servicii' },
   { name: 'Contact', href: 'contact' },
-  { name: 'Blog', href: 'blog' },
-  { name: 'Docs', href: 'doc/introduction' }
+  { name: 'Ghid Funerar', href: 'doc/introduction' }
 ]
 
-export const PAGE_SIZE = 6
+// export const PAGE_SIZE = 6
 
 export const GITHUB_EDIT_URL = `https://github.com/backatmarius/popa_astro`
 
