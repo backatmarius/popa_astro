@@ -2,13 +2,18 @@
 import type { CollectionEntry } from 'astro:content'
 
 export interface Props {
+  base: string
   prev?: CollectionEntry<'blog'> | CollectionEntry<'doc'>
   next?: CollectionEntry<'blog'> | CollectionEntry<'doc'>
 }
 
-const { prev, next } = Astro.props
----
+const { base, prev, next } = Astro.props
 
+// Helper function to ensure proper URLs
+const getFullUrl = (slug: string) => {
+  return new URL(`${base}/${slug}`, Astro.site).pathname
+}
+---
 <dl class='my-12 px-10 lg:px-24 flex border-t border-purple-300 pt-6 dark:border-purple-700'>
   {prev && (
     <div class='mr-auto text-left'>
@@ -16,7 +21,7 @@ const { prev, next } = Astro.props
       <dd class='mt-1'>
         <a
           class='text-sm lg:text-2xl font-semibold text-purple-600 dark:hover:text-purple-300'
-          href={`/servicii/${prev.slug}`}
+          href={getFullUrl(prev.slug)}
         >
           <span aria-hidden='true'>←</span>
           {prev.data.title}
@@ -30,7 +35,7 @@ const { prev, next } = Astro.props
       <dd class='mt-1'>
         <a
           class='text-sm lg:text-2xl font-semibold text-purple-600 dark:hover:text-purple-300'
-          href={`/servicii/${next.slug}`}
+          href={getFullUrl(next.slug)}
         >
           {next.data.title}
           <span aria-hidden='true'>→</span>
